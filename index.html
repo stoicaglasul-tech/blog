@@ -27,38 +27,87 @@
 </header>
 
 <div class="container">
+    <aside class="sidebar-left">
+        <h3>Explore Tags</h3>
+        <div class="tag-cloud">
+            <a href="#" class="tag-sm">HTML</a>
+            <a href="#" class="tag-lg">Coding</a>
+            <a href="#" class="tag-md">Coffee</a>
+            <a href="#" class="tag-sm">CSS</a>
+            <a href="#" class="tag-lg">Accessibility</a>
+            <a href="#" class="tag-md">Books</a>
+            <a href="#" class="tag-sm">UI/UX</a>
+            <a href="#" class="tag-md">Learning</a>
+            <a href="#" class="tag-sm">Romania</a>
+        </div>
+    </aside>
+
     <main>
         <article id="intro-post">
             <h2>My First Post: Hello World</h2>
             <p><small>Published on March 11, 2026</small></p>
             
-            <img src="gia_blog.jpg" 
-                 alt="A friendly photo of Gia smiling" 
-                 title="This is me, Gia!" 
-                 width="150" 
-                 height="200">
+            <img src="gia_blog.jpg" alt="Gia smiling" title="Gia" width="150" height="200">
+            <p>My name is <span id="author-name">Giorgiana Stoica</span>. I work in a Romanian UPA hiring disabled individuals. As a wheelchair user, I know how important accessibility is.</p>
 
-            <p>My name is <span id="author-name">Giorgiana Stoica</span>, but people call me Gia. 
-            I love books, coffee and, recently, coding!</p>
-            
-            <p>I work in a Romanian UPA that deals with hiring disabled individuals. 
-            It's challenging to interview different people every day and manage selections, 
-            but I love the impact it makes. As a wheelchair user myself, I know how 
-            important community and accessibility are.</p>
+            <div class="post-tags">
+                <span>Tags:</span>
+                <a href="#">#Accessibility</a> <a href="#">#Romania</a> <a href="#">#Learning</a>
+            </div>
+
+            <section class="comments">
+                <h4>Comments (1)</h4>
+                <div class="comment-item">
+                    <strong>Gabriel:</strong> Welcome to the dev world, Gia! Love the mission.
+                </div>
+            </section>
         </article>
 
         <hr>
 
         <article>
-            <h2>My first assignment</h2>
+            <h2>My First Assignment</h2>
             <p><small>Published on March 10, 2026</small></p>
-            <img src="coding.jpg" 
-                 alt="A friendly photo of Gia smiling" 
-                 title="This is me, Gia!" 
-                 width="250" 
-                 height="150">
-            <p>This is my first assignment on GitHub! I'm balancing this with an 8-hour workday, 
-            so it’s a marathon, not a sprint.</p>
+            <img src="coding.jpg" alt="Coding setup" width="250" height="150">
+            <p>Balancing an 8-hour workday with learning GitHub. It’s a marathon, not a sprint!</p>
+            
+            <div class="post-tags">
+                <span>Tags:</span>
+                <a href="#">#Coding</a> <a href="#">#HTML</a> <a href="#">#Learning</a>
+            </div>
+
+            <section class="comments">
+                <h4>Comments (1)</h4>
+                <div class="comment-item">
+                    <strong>Ioana:</strong> You're doing great! GitHub can be tricky at first.
+                </div>
+            </section>
+        </article>
+
+        <hr>
+
+        <article>
+            <h2>Review: How to Know a Person</h2>
+            <p><small>Published on March 15, 2026</small></p>
+            <a href="https://www.amazon.com/How-Know-Person-Seeing-Others/dp/059323006X" target="_blank">
+                <img src="book.jpg" alt="David Brooks Book Cover" title="How to Know a Person" width="150" height="220">
+            </a>
+            <p>I just finished David Brooks' <em>"How to Know a Person"</em>. In my line of work, truly seeing someone—their struggles, their potential, and their humanity—is everything. This book is a masterclass in empathy and the art of deep connection.</p>
+            
+            <div class="post-tags">
+                <span>Tags:</span>
+                <a href="#">#Books</a> <a href="#">#Learning</a> <a href="#">#Accessibility</a>
+            </div>
+
+            <section class="comments">
+                <h4>Comments (2)</h4>
+                <div class="comment-item">
+                    <strong>Cristian:</strong> This sounds like a must-read for anyone in HR.
+                </div>
+                <div class="comment-item">
+                    <strong>Alex:</strong> Great review! Adding this to my reading list.
+                </div>
+            </section>
         </article>
 
         <section id="contact">
@@ -78,14 +127,13 @@
         </section>
     </main>
 
-    <aside>
-        <h3 title="Visit my friends">Blog Roll</h3>
+    <aside class="sidebar-right">
+        <h3>Blog Roll</h3>
         <ul>
-            <li><a href="https://cip200.github.io/Ceahlau/" target="_blank" title="Check out Gabriel's blog">Gabriel's Dev Space</a></li>
-            <li><a href="https://roseyoanna.github.io/html-homework-roseyoanna2/" target="_blank" title="Visit Ioana">Ioana's Tech Journey</a></li>
-            <li><a href=" https://ragleancristian.github.io/blog/" target="_blank" title="Read Cristian's posts">Cristian's Corner</a></li>
+            <li><a href="https://cip200.github.io/Ceahlau/" target="_blank">Gabriel's Dev Space</a></li>
+            <li><a href="https://roseyoanna.github.io/html-homework-roseyoanna2/" target="_blank">Ioana's Tech Journey</a></li>
+            <li><a href="https://ragleancristian.github.io/blog/" target="_blank">Cristian's Corner</a></li>
         </ul>
-        
         <h3>About Me</h3>
         <p>Just a human building things on the web and advocating for inclusion.</p>
     </aside>
